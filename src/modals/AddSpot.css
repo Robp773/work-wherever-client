@@ -1,0 +1,56 @@
+.modal {
+	text-align: center;
+}
+.addSpotForm>h2 {
+	font-size: 30px;
+}
+.addSpotForm {
+	background: white;
+	font-size: 0;
+	width: fit-content;
+	margin: auto;
+}
+.addSpotForm>input {
+	text-align: center;
+	display: inline-block;
+	width: 50%;
+	font-size: 20px;
+	padding: 0;
+	border: 1px solid black;
+}
+.addSpotForm>div {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	width: 15%;
+	margin-right: auto;
+	margin-left: auto;
+	background: white;
+	font-size: 20px;
+}
+.addSpotForm>select {
+	margin-top: 5px;
+	font-size: 15px;
+	margin-bottom: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+.internetAccess, .services, .internetAccess>h4, .services>h4 {
+	background: white;
+	font-size: 20px;
+	padding: 0;
+	margin: auto;
+	width: fit-content;
+}
+.addSpotForm .comments {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.submitBtn {
+	margin: 5px;
+	padding-bottom: 5px;
+	font-size: 20px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto
+}

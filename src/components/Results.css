@@ -1,0 +1,18 @@
+.resultsSection {
+	padding: 10px;
+	text-align: center;
+	background: #989898;
+}
+img {
+	width: 350px;;
+	height: 350px;
+}
+.resultsColumn {
+	margin: 5px;
+	padding: 10px;
+	background: gray;
+	font-size: 25px;
+}
+.resultsColumn>div {
+	background: white;
+}

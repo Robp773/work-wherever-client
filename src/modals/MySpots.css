@@ -1,0 +1,17 @@
+.mySpots{
+    margin-right: 20px;
+    margin-left: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    background: white;
+    font-size: 0;
+    text-align: center;
+  }
+  .mySpots > div{
+    display: inline-block;
+    width: 50%;
+    font-size: 20px;
+  }
+  .mySpots > h4{
+    font-size: 30px;
+  }

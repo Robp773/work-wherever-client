@@ -1,0 +1,19 @@
+fieldset {
+	border: 0;
+}
+.resultModal {
+	background: white;
+	margin: auto;
+	width: fit-content;
+	padding: 5px;
+	border: 1px solid black;
+	text-align: center;
+	font-size: 0;
+}
+.result {
+	font-size: 20px;
+}
+.resultMap {
+	width: 200px;
+	height: 200px;
+}
