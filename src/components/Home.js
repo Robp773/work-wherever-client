@@ -13,28 +13,39 @@ import {connect} from 'react-redux'
 
 export class Home extends React.Component {
 
+        // Modals
+
+        // <AddSpot />
+        // <SingleResult />
+        // <LandingPage />
+        // <MySpots />
+     
+
     render(){
-           console.log(this.props.result)
+        const resultList = this.props.resultList.map((item, index)=>{
+           return (
+            <div className="listItem" key={index} >
+            <div>{item.name}</div>
+            <div>{item.location}</div>
+            <div>{item.environment}</div>
+            </div>
+           )
+        })
+
         return (
         <main>
-        <header>{this.props.result}</header>
+        <header>Work Wherever</header>
         <Navbar />
         <Search />
-        <Results />
-        
-        {/* <AddSpot />
-        <SingleResult />
-        <LandingPage />
-        <MySpots />  */}
+        <Results resultList = {resultList} />
         </main>
         )
-
     }
- 
 };  
 
 const mapStateToProps = state => ({    
-    result: state.singleResult
+    result: state.singleResult,
+    resultList: state.resultList
     });        
     
 

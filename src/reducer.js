@@ -17,7 +17,7 @@ const initialState = {
 		environment: 'Peace and Quiet'
 	}, {
 		name: 'Downtown Coworking',
-		location: '834 Brick Boulevard',
+		location: '834 Brick Boulevard, Denville 83823',
 		environment: 'Somewhat Distracting'
     }],
     

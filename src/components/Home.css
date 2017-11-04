@@ -3,3 +3,7 @@ header {
 	text-align: center;
 	margin: auto;
 }
+.listItem{
+	border: 1px solid black;
+	margin: 5px;
+}
