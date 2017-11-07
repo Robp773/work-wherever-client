@@ -1,14 +1,30 @@
 .modal {
 	text-align: center;
+	top: 0;
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(192,192,192,.8);
+}
+
+.addSpotForm {
+	margin: auto;
+    padding: 10px;
+    text-align: center;
+    height: fit-content;
+    width: fit-content;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: -moz-max-content;
+	background: rgba(255,255,255,1);
+	z-index: 1;
 }
 .addSpotForm>h2 {
 	font-size: 30px;
-}
-.addSpotForm {
-	background: white;
-	font-size: 0;
-	width: fit-content;
-	margin: auto;
 }
 .addSpotForm>input {
 	text-align: center;

@@ -5,9 +5,12 @@ import './Results.css'
 export default function Results(props){
     return (
         <section className="resultsSection">
-		<img className="googleMap" alt="Google Map" src="https://www.wired.com/wp-content/uploads/2016/11/GoogleMapTA.jpg"/>
+			<div className="mapContainer">
+				<img className="googleMap" alt="Google Map" 
+					src="https://www.wired.com/wp-content/uploads/2016/11/GoogleMapTA.jpg"/>
+			</div>
 		<section className="resultsColumn">
-			<div>
+			<div className="listContainer">
 				{props.resultList}
 			</div>
 		</section>

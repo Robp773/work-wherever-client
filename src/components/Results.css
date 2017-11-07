@@ -1,18 +1,25 @@
 .resultsSection {
-	padding: 10px;
 	text-align: center;
-	background: #989898;
 }
 img {
-	width: 350px;;
-	height: 350px;
+	width: 100%;
 }
 .resultsColumn {
-	margin: 5px;
-	padding: 10px;
 	background: gray;
-	font-size: 25px;
+	font-size: 20px;
 }
 .resultsColumn>div {
-	background: white;
+	background: lightgrey;
+}
+.mapContainer{
+background: darkgray;
+padding: 10px;
+}
+
+@media only screen and (min-width: 450px){
+	img{
+		width: 25%;
+		
+	}
+
 }

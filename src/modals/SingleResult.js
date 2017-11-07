@@ -5,6 +5,7 @@ export default function SingleResult(props){
     
     return(
         <div className="resultModal">
+			<div className="singleResultBody">
 		<div className="result googleMap">
 		<h4>Google Maps</h4>
         <img className="resultMap" alt='Google Map'
@@ -42,6 +43,7 @@ export default function SingleResult(props){
 					Nice low key place to get some work done
 				</div>
 			</div>
+		</div>
 		</div>
 	</div>
     )

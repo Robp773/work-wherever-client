@@ -2,8 +2,8 @@ header {
 	font-size: 35px;
 	text-align: center;
 	margin: auto;
+	background: lightgray
 }
 .listItem{
 	border: 1px solid black;
-	margin: 5px;
 }

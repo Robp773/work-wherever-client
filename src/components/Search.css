@@ -1,5 +1,4 @@
 .searchInput {
-	font-size: 20px;
 	display: inline-block;
 	margin: auto;
 	width: 50%;
@@ -11,6 +10,5 @@ form {
 	background: #989898;
 }
 .submitSearch {
-	font-size: 20px;
 	display: inline-block;
 }
