@@ -58,7 +58,7 @@ return (
         </fieldset>
         <input className="comments" placeholder="Additional Comments..." type="text"/> 
         <button className="submitBtn" type="submit">Submit</button>
-        <button className='exitBtn'><Link to='/'>X</Link></button>
+        <Link to='/'><button className='exitBtn'>X</button></Link>
     </form>
 </div>
 )

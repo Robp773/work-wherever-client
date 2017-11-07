@@ -8,7 +8,7 @@ export default function LandingPage(props){
     return(
 
         <div className="landingBg">
-        <button className='exitBtn'><Link to='/'>X</Link></button>
+        <Link to='/'><button className='exitBtn'>X</button></Link>
 
         <div className="landingPage">
             If working in the same old office work space is starting to get old, 

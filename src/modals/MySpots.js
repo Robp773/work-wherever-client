@@ -6,8 +6,8 @@ export default function MySpots(props){
     return (
         <div className="mySpots">
           <div className="mySpotsBody">
-        <h4>Saved Spots</h4>
-            <div>Spot - Location - Details <button>Delete</button></div>
+          <Link to='/'><button className='exitBtn'>X</button></Link>
+        <h4>Result</h4>
             <div>Spot - Location - Details <button>Delete</button></div>
             <div>Spot - Location - Details <button>Delete</button></div>
             <div>Spot - Location - Details <button>Delete</button></div>
@@ -17,7 +17,6 @@ export default function MySpots(props){
             <div>Spot - Location - Details <button>Delete</button></div>
             <div>Spot - Location - Details <button>Delete</button></div>
             <div>Spot - Location - Details <button>Delete</button></div>
-            <button className='exitBtn'><Link to='/'>X</Link></button>
         </div>
       </div>
     )

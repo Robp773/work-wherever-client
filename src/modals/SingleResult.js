@@ -6,8 +6,8 @@ export default function SingleResult(props){
     return(
         <div className="resultModal">
 			<div className="singleResultBody">
-			<button className='exitBtn'><Link to='/'>X</Link></button>
-
+			<Link to='/'><button className='exitBtn'>X</button></Link>
+			
 		<div className="result googleMap">
 		<h4>Google Maps</h4>
         <img className="resultMap" alt='Google Map'

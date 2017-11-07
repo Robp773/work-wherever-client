@@ -7,8 +7,8 @@ export default function Navbar(props){
         <nav>
 		    <button className="navBtn">Sign Up</button>
             <button className="navBtn">Sign Out</button> 
-            <button className="navBtn"><Link to='/addspot'>Add Spot</Link></button> 
-            <button className="navBtn"><Link to='/myspots'>My Spots</Link></button>
+           <Link to='/addspot'> <button className="navBtn">Add Spot</button></Link> 
+           <Link to='/myspots'><button className="navBtn">My Spots</button></Link>
 	    </nav>
      )
 }
