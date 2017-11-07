@@ -25,7 +25,7 @@ const initialState = {
 		name: 'Panera Bread',
 		location: '34 Fitty Street, Georgetown AK 75734',
 		environment: 'Peace and Quiet',
-		internet: 'WiFi',
+		internet: ['WiFi', '4G'],
 		services: ['Coffee', 'Desks or Tables']
 	}
 };
