@@ -1,11 +1,13 @@
 import React from 'react';
-import './SingleResult.css'
-
+import './SingleResult.css';
+import {Link} from 'react-router-dom';
 export default function SingleResult(props){
     
     return(
         <div className="resultModal">
 			<div className="singleResultBody">
+			<button className='exitBtn'><Link to='/'>X</Link></button>
+
 		<div className="result googleMap">
 		<h4>Google Maps</h4>
         <img className="resultMap" alt='Google Map'

@@ -2,6 +2,7 @@
 import './AddSpot.css';
 
 import React from 'react';
+import {Link} from 'react-router-dom';
 
 export default function AddSpot(props){
 return (
@@ -57,6 +58,7 @@ return (
         </fieldset>
         <input className="comments" placeholder="Additional Comments..." type="text"/> 
         <button className="submitBtn" type="submit">Submit</button>
+        <button className='exitBtn'><Link to='/'>X</Link></button>
     </form>
 </div>
 )

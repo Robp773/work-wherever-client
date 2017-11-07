@@ -1,12 +1,15 @@
 import './LandingPage.css'
 
 import React from 'react';
+import {Link} from 'react-router-dom';
 
 export default function LandingPage(props){
 
     return(
 
         <div className="landingBg">
+        <button className='exitBtn'><Link to='/'>X</Link></button>
+
         <div className="landingPage">
             If working in the same old office work space is starting to get old, 
             its time for a change of scenery.  Search for remote work locations near you, 

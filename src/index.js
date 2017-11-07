@@ -10,7 +10,7 @@ import {Provider} from 'react-redux';
 ReactDOM.render(
 
 <Provider store={store}>
-<Home />
+<Home exact path='/' />
 </Provider>, 
 
 document.getElementById('root')

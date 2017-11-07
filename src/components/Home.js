@@ -9,17 +9,19 @@ import SingleResult from '../modals/SingleResult';
 // import LandingPage from '../modals/LandingPage';
 import MySpots from '../modals/MySpots';
 import {connect} from 'react-redux'
-import {BrowserRouter as Router, Route} from 'react-router-dom';
+import {BrowserRouter as Router, Route, Link} from 'react-router-dom';
 
 export class Home extends React.Component {
 
     render(){
         const resultList = this.props.resultList.map((item, index)=>{
            return (
-            <div className="listItem" key={index} >
+            <div className="listItem" key={index}>
+            <Link to='/singleresult'>
             <div>{item.name}</div>
             <div>{item.location}</div>
             <div>{item.environment}</div>
+            </Link>
             </div>
            )
         })

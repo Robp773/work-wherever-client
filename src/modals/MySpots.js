@@ -1,5 +1,6 @@
 import './MySpots.css'
 import React from 'react';
+import {Link} from 'react-router-dom';
 
 export default function MySpots(props){
     return (
@@ -16,6 +17,7 @@ export default function MySpots(props){
             <div>Spot - Location - Details <button>Delete</button></div>
             <div>Spot - Location - Details <button>Delete</button></div>
             <div>Spot - Location - Details <button>Delete</button></div>
+            <button className='exitBtn'><Link to='/'>X</Link></button>
         </div>
       </div>
     )
