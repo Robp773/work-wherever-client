@@ -12,8 +12,7 @@ import {connect} from 'react-redux'
 import {BrowserRouter as Router, Route, Link} from 'react-router-dom';
 
 export class Home extends React.Component {
-
-    render(){
+    render(){            
         const resultList = this.props.resultList.map((item, index)=>{
            return (
             <div className="listItem" key={index}>
@@ -25,14 +24,13 @@ export class Home extends React.Component {
             </div>
            )
         })
-
         return (
         <Router>
             <main>
             <header>Work Wherever</header>
             <Navbar /> 
             <Route exact path='/addspot' component={AddSpot} />
-            <Route exact path='/singleresult' component={SingleResult} />
+            <Route exact path='/singleresult' component={SingleResult}  />
             <Route exact path='/myspots' component={MySpots} />
             <Search />
             <Results resultList = {resultList} />
@@ -43,8 +41,7 @@ export class Home extends React.Component {
 };  
 
 const mapStateToProps = state => ({    
-    result: state.singleResult,
-    resultList: state.resultList
+    resultList: state.resultList,
     });        
         
 export default connect(mapStateToProps)(Home);
